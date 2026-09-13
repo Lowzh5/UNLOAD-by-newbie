@@ -1,4 +1,4 @@
-<img width="889" height="145" alt="image" src="https://github.com/user-attachments/assets/4c64dd5d-0198-4ed9-820a-da7fa727d8b0" /><img width="889" height="145" alt="image" src="https://github.com/user-attachments/assets/702223d6-0cac-4710-a135-cbe350da67a5" /><img width="889" height="145" alt="image" src="https://github.com/user-attachments/assets/db900a5e-1ae5-4eee-8e05-70f407cd3966" /><img width="889" height="145" alt="image" src="https://github.com/user-attachments/assets/be5b5a6d-c72f-43bd-9817-43e49c9bbdd1" /><img width="889" height="145" alt="image" src="https://github.com/user-attachments/assets/76c5de95-bad4-41d6-9645-e7afc8325685" /># UNLOAD-by-newbie 
+# UNLOAD-by-newbie 
 Team: Derrick Lee Jia Qian, Chew Zhi Foong, Koh Hui Yuan, Low Zhan Hui
 
 Problem Statement: Stress & Workload Manager
