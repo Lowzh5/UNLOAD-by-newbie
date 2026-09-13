@@ -91,6 +91,7 @@ This diagram shows how UNLOAD processes user commitments, assesses workload acro
 This user flow illustrates the main MVP journey from adding a task or commitment, reviewing UNLOAD's interpretation, viewing the workload forecast, understanding workload causes, and receiving rebalancing recommendations.
 
 ## 2.3 Mentor Consultation
+### First Mentor Consultation
 | Date | Mentor | Feedback Received | What Was Changed |
 | :--- | :--- | :--- | :--- |
 | 7 Sep 2026 | Zach Khong | **Core Focus:** Make Minimal Input the primary MVP differentiator. | **Core Architecture:** Positioned Minimal Input (Voice, Image, Google Calendar Sync) as the Core Feature. |
@@ -104,7 +105,7 @@ This user flow illustrates the main MVP journey from adding a task or commitment
 ||| **Stronger Reasoning:** Formulate a stronger problem statement to highlight why the app is uniquely useful. | **Refined Problem Statement:** Framed UNLOAD as a solution to Cognitive Planning Fatigue—eliminating setup friction while solving Invisible Cumulative Load. |
 ||| **Feature Deferral:** Hold proposed friend/group dump features and focus purely on minimal input for the core MVP. | **Future Enhancements List:** Moved Friend / Group Dump collaborative features to the post-MVP roadmap. |
 
-
+### Second Mentor Consultation
 | Date | Mentor | Feedback Received | What Was Changed |
 | :--- | :--- | :--- | :--- |
 | 9 Sep 2026 | Khor Jia Quan (Stefan) | **Visual Clarity:** Make input areas more visually obvious so students can immediately identify where they need to enter information. | **Input Visibility:** Increased the contrast of input/fill-in areas so students can immediately recognise where they should provide information. |
@@ -118,6 +119,7 @@ This user flow illustrates the main MVP journey from adding a task or commitment
 ||| **Notification Output:** Add notification feedback to show students when a schedule/task change has been made. | **Notification Output:** Added notification UI to demonstrate how UNLOAD informs students about upcoming tasks and schedule changes. |
 ||| **Main UX Focus:** Prioritize simplicity and ease of use for students, with greater emphasis on UX rather than adding unnecessary features. | **UX Simplification:** Refined the interface to reduce unnecessary interactions and keep the main experience focused on Minimal Input and AI Suggestions. |
 
+### Third Mentor Consultation
 | Date | Mentor | Feedback Received | What Was Changed |
 | :--- | :--- | :--- | :--- |
 | 12 Sep 2026 | Zach Khong | **Global Mic Button Assessment:** Suggested replacing the central + (Add Commitment) Floating Action Button with a global mic button to reduce clicks for schedule changes, but concluded keeping the dedicated Add Commitment route is functional as-is. | **Maintained Core Add Flow:** Retained the central + Floating Action Button for structured commitment entry while keeping quick voice/text changes available in the schedule view. 
