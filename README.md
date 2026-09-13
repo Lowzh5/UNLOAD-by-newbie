@@ -238,7 +238,7 @@ To ensure high feasibility within the limited building phase, non-essential feat
 * Sticky Rebalance action card proposing task deferrals/batching.
 
 4. Core UI & Screen Flow
-* Screen 01 (Unload Input) →  Screen 02 (AI Parse Review) → Screen 03 (Today's Focus) →  Screen 04 (Schedule & Calendar Strip) → Screen 05 (Shared Unload Tab).
+* Unload Input Screen →  AI Analysis Review Screen → Today's Focus Screen →  Daily Schedule Screen.
 
 5. Optional Guarded Recovery
 * Personalised downtime suggestions (Rest, Walk, Gaming, or Skip/Zero-activity).
