@@ -130,16 +130,19 @@ The UNLOAD prototype demonstrates the complete core workflow from minimal-input 
 
 ### Screen 1: Minimal Input / Brain Dump
 ![Main Screen](prototype/MainScreen.png)
+
 **Description:**
 Students can quickly unload their commitments through text, voice or image input without manually filling in multiple task fields. This reduces planning effort at the point where students may already feel overwhelmed.
 
 ### Screen 2: “Here’s What I Understand”
 !["Here’s What I Understand"](prototype/EditTask.png)
+
 **Description:**
 UNLOAD converts the student's unstructured input into structured commitments. Instead of editing individual fields, users can simply respond through the “Anything I missed or got wrong?” input if clarification is needed.
 
 ### Screen 3: Today’s Workload
 ![Today's Workload](prototype/TodayWorkload.png)
+
 **Description:**
 The Today view summarises the student's current workload and highlights important commitments without requiring them to manually calculate their workload.
 
@@ -147,26 +150,31 @@ The Today view summarises the student's current workload and highlights importan
 |||
 | :--- | :--- |
 | ![Why is Today Heavy1](prototype/Workload1.png) | ![Why is Today Heavy2](prototype/Workload2.png) |
+
 **Description:**
 UNLOAD explains the factors contributing to workload pressure, such as cognitive strain, time collisions, deadline pressure and limited recovery, rather than presenting only a workload score.
 
 ### Screen 5: AI Suggestion / Rebalance
 ![AI Suggestion / Rebalance](prototype/AISuggestion_Rebalance.png)
+
 **Description:**
 UNLOAD identifies flexible commitments that can be moved or adjusted and presents a Before vs. After plan so students can see how the suggested change reduces workload pressure.
 
 ### Screen 6: Schedule
 ![Schedule](prototype/Schedule.png)
+
 **Description:**
 The Schedule view shows fixed commitments and flexible tasks together, allowing students to see how the recommended changes affect their actual timetable.
 
 ### Screen 7: Guarded Recovery
 ![Guarded Recovery](prototype/Recovery.png)
+
 **Description:**
 After reducing workload pressure, UNLOAD protects space for recovery. Students can choose activities such as rest, gaming, walking or simply doing nothing.
 
 ### Screen 8: Shared
 ![Shared](prototype/Shared.png)
+
 **Description:**
 The Shared tab provides a supporting feature where classmates can share course commitments that students can quickly add to their own workload.
 
