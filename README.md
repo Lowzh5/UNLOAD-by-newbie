@@ -75,17 +75,17 @@ UNLOAD automatically restructures the student's schedule while protecting sleep,
 ## 2.2 Ideation Boards
 Canva (mindmap / system workflow / user flow): [https://canva.link/3hibskcmsmipbse]
 
-**1. Problem Statement & Proposed Solution**
+### **1. Problem Statement & Proposed Solution**
 ![Mindmap](ideation/mindmap.png)
 
 This mindmap summarises the key problems faced by university students, the target users, and how UNLOAD addresses these problems through its proposed features and expected impact. 
 
-**2. System Workflow**
+### **2. System Workflow**
 ![SystemWorkFlow](ideation/systemworkflow.png) 
 
 This diagram shows how UNLOAD processes user commitments, assesses workload across dynamic workload dimensions, determines workload level, explains the causes, and provides actionable rebalancing and recovery recommendations.
 
-**3. User Flow**
+### **3. User Flow**
 ![UserFlow](ideation/userflow.png)
 
 This user flow illustrates the main MVP journey from adding a task or commitment, reviewing UNLOAD's interpretation, viewing the workload forecast, understanding workload causes, and receiving rebalancing recommendations.
@@ -216,8 +216,7 @@ UNLOAD shifts the productivity paradigm from **High-Input, Passive-Reporting** t
 | **Authentication** | **Firebase Auth (Google OAuth)** | 1-tap sign-in with Google reduces onboarding friction to under 5 seconds for university students. | Scope permissions for Google Calendar sync require explicit user consent flows. |
 | **Voice & OCR Intake** | **Whisper API / Google Cloud Vision** | Whisper provides industry-leading accuracy for multi-accented, messy speech parsing; Vision API handles image-to-text for timetables. | Processing audio/images adds 1–2 seconds of latency; mitigated by showing optimistic UI states (e.g., Screen 02 loading animation). |
 | **AI Workload Parsing** | **Gemini API (LLM Layer)** | Flexible zero-shot extraction of structured task properties (title, date, estimated duration, cognitive strain) from raw text/voice. | Token usage limits and API latency; managed by strict JSON schema outputs and fallback rule-based Regex parsing. |
-| **Push Notifications** | **Firebase Cloud Messaging (FCM)** | Reliable cross-platform push infrastructure for proactive recovery alerts and schedule check-ins. |
-Users can turn off notifications; mitigated by placing recovery alerts directly inside the main app dashboard. |
+| **Push Notifications** | **Firebase Cloud Messaging (FCM)** | Reliable cross-platform push infrastructure for proactive recovery alerts and schedule check-ins. | Users can turn off notifications; mitigated by placing recovery alerts directly inside the main app dashboard. |
 | **Hosting & Deployment** | **Google Cloud Run** |  Fully managed, scalable container platform with generous free-tier hosting for backend services. | Free tiers sleep after inactivity; configured health check endpoints to maintain responsiveness. |
 
 ## 5.2 Build Plan & MVP Scope 
